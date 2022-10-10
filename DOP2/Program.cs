@@ -64,6 +64,7 @@ void Summa(int[,] numbers1, int[] numbers2, int rows, int colunms, int st)
     }
     string arr = string.Join(", ", numbers2);
     Console.WriteLine("Числа из первого массива, сумма цифр которых больше их произведения: [" + arr + "]");
+    Console.WriteLine();
 }
 void PrintArray(int[,] numbers1)
 {
